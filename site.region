@@ -21,6 +21,12 @@
             <a href="/" class="site-title-link">{siteTitle}</a>
           </h1>
         {.end}
+        
+        <h2> 
+        
+        WILL
+
+</h2> 
       </header>
 
       <!-- cms content injection point -->
