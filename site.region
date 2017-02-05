@@ -18,15 +18,11 @@
         <!-- site title or logo -->
         {.section website}
           <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
+            <a href="/" class="site-title-link">
+            <a href="logo" class="atlantis.png"> 
+            {siteTitle}</a>
           </h1>
         {.end}
-        
-        <h2> 
-        
-        WILL
-
-</h2> 
       </header>
 
       <!-- cms content injection point -->
