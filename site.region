@@ -22,7 +22,7 @@
         <!-- site title or logo -->
         {.section website}
             <a href="/">
-            <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
+            <img src="/assets/atlantis.png" class="atlantis" alt=""> 
             </a>
          
         {.end}
