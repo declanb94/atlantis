@@ -7,6 +7,10 @@
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
   </head>
+  
+  
+  
+  
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
     <div class="site-container">
@@ -17,15 +21,15 @@
 
         <!-- site title or logo -->
         {.section website}
-          <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">
-            <a href="/"> 
-            <img src="./atlantis.png" alt="logo" /> 
+            <a href="/">
+            <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
             </a>
-            {siteTitle}</a>
-          </h1>
+         
         {.end}
       </header>
+      
+      
+      
 
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
@@ -38,7 +42,9 @@
       </footer>
 
     </div>
-
+    
+    
+    
     <!-- combo and minify scripts when not logged in -->
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
 
