@@ -19,7 +19,9 @@
         {.section website}
           <h1 class="site-title-heading" data-content-field="site-title">
             <a href="/" class="site-title-link">
-            <a href="logo" class="atlantis.png"> 
+            <a href="/"> 
+            <img src="atlantis.png" alt="logo" /> 
+            </a>
             {siteTitle}</a>
           </h1>
         {.end}
