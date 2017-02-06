@@ -16,14 +16,16 @@
     <div class="site-container">
 
       <header class="site-header">
+      
+      <a href="/">
+            <img src="/assets/atlantis.png" class="atlantis" alt=""> 
+            </a>
         <!-- site navigation -->
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />
 
         <!-- site title or logo -->
         {.section website}
-            <a href="/">
-            <img src="/assets/atlantis.png" class="atlantis" alt=""> 
-            </a>
+            
          
         {.end}
       </header>
