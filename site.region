@@ -14,19 +14,20 @@
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
     <div class="site-container">
+    
+    
+            <a href="/">
+            <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
+            </a>
+         
 
       <header class="site-header">
-      
-      <a href="/">
-            <img src="/assets/atlantis.png" class="atlantis" alt=""> 
-            </a>
         <!-- site navigation -->
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />
 
         <!-- site title or logo -->
         {.section website}
-            
-         
+          
         {.end}
       </header>
       
