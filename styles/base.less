@@ -20,8 +20,7 @@ body {
 .site-container {
   line-height: 1.6em;
   color: #777;
-  max-width: 1020px;
-  padding: 6vw;
+  
 
   h1, h2, h3 {
     font-weight: normal;
@@ -41,31 +40,60 @@ body {
   margin-bottom: 4vw;
 }
 
-.site-navigation { }
+.site-navigation { 
+
+    background: green; 
+    padding: 10px 6vw;  
+    
+} 
 
 .site-navigation-list {
   padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: nowrap;     
+    
 }
 
 .site-navigation-item {
   display: inline-block;
-  font-size: 87.5%;
+  font-size: 100%;
+  flex: 1 1 auto; 
 
-  & + .site-navigation-item {
-    margin-left: 1em;
+    a:hover {
+       color: blue; 
+    }
+    
+    .HeatDrop {
+        
+        
+    li {
+        display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+    }
+    }
+    
+  
+  
+  &.site-navigation-item {
+    margin-left: 3em;
   }
 
   a {
-    color: #111;
+    color: grey;
     text-decoration: none;
-
-    &:hover {
-      color: #999;
-    }
+      
   }
 
   &.active-link > a {
-    color: #999;
+    color: blue;
   }
 
 }
