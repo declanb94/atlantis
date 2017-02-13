@@ -8,13 +8,12 @@
     
     {squarespace-headers}
     
-    
   </head>
-  
-  
+
   
   
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  
 
     <div class="site-container">
     
@@ -22,7 +21,21 @@
             <a href="/">
             <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
             </a>
-         
+          <div>
+          
+  <div class="headdiv"> 
+  <ul>
+  
+  <li class="line"> Heat Pump </li>
+  <li class="line"> Electrical </li> 
+  <li class="line"> Air Conditioning </li> 
+  <li class="line"> Mechanical </li> 
+  <li class="line"> About Us </li> 
+  
+  </ul> 
+  </div> 
+  
+  </div> 
 
       <header class="site-header">
         <!-- site navigation -->
