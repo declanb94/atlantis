@@ -29,19 +29,6 @@
 </div>
 
 
-            
-            
-  </head>
-
-  
-  
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-  
-
-    <div class="site-container">
-
-       
-          
   <div class="headdiv"> 
   <ul>
   
@@ -53,6 +40,19 @@
   
   </ul> 
   </div> 
+            
+            
+  </head>
+
+  
+  
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  
+<div class="pad"> 
+    <div class="site-container">
+
+       
+
   
   </div> 
 
@@ -73,11 +73,8 @@
        {squarespace.main-content}
       </main>
       
-      
-<div class="associates"> 
-
+       
 </div> 
-
 
     
 
@@ -91,7 +88,9 @@
   
   <footer> 
   
-  
+  <div class="associates"> 
+
+</div>
   
   </footer> 
 </html>
