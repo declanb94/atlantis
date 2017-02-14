@@ -27,22 +27,41 @@
   
   </div>
 </div>
-
-
-  <div class="headdiv"> 
-  <ul>
-  
-  <li class="line"> Heat Pump </li>
-  <li class="line"> Electrical </li> 
-  <li class="line"> Air Conditioning </li> 
-  <li class="line"> Mechanical </li> 
-  <li class="line"> About Us </li> 
-  
-  </ul> 
-  </div> 
-            
+ 
             
   </head>
+  
+    
+<div class="nav">
+  <div class="dropdown">
+    Heat Pump
+    <ul class="dropdown-content">
+      <li> Breakdown </li>
+      <li> Installation </li>
+      <li> Maintainance </li>
+    </ul>
+  </div>
+  <div class="flex-spacer">
+  </div>
+  <div class="dropdown">
+    Heat Pump
+    <ul class="dropdown-content">
+      <li> Breakdown </li>
+      <li> Installation </li>
+      <li> Maintainance </li>
+    </ul>
+  </div>
+  <div class="flex-spacer">
+  </div>
+  <div class="dropdown">
+    Heat Pump
+    <ul class="dropdown-content">
+      <li> Breakdown </li>
+      <li> Installation </li>
+      <li> Maintainance </li>
+    </ul>
+  </div>
+</div> 
 
   
   
@@ -89,6 +108,10 @@
   <footer> 
   
   <div class="associates"> 
+
+</div>
+
+<div class="bottom">
 
 </div>
   
