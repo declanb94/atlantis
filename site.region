@@ -3,17 +3,32 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- include system scripts, page meta, and header code injection -->
     
     {squarespace-headers}
     
-    
-    <div class="header"> 
-    <a href="/">
-            <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
-            </a>
-            </div> 
+ <div class="flexbox">
+  <div class="flex-item">
+  
+  <img src="/assets/atlantis.png" class="logo">
+  </div>
+  
+  <div class="flex-spacer">
+  </div> 
+  
+  
+  <div class="flex-item">
+  
+  <h2>Tel: 01484421269</h2>
+  
+  <h2>E-Mail: info@atlantisenergy.co.uk </h2>
+  
+  </div>
+</div>
+
+
             
             
   </head>
@@ -52,27 +67,31 @@
       </header>
       
       
-      
 
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
        {squarespace.main-content}
       </main>
+      
+      
+<div class="associates"> 
 
-      <!--Footer with open block field -->
-      <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
-      </footer>
+</div> 
 
-    </div>
+
     
-    
+
+   
     
     <!-- combo and minify scripts when not logged in -->
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
 
-    <!-- other scripts, and footer code injection -->
-    {squarespace-footers}
 
   </body>
+  
+  <footer> 
+  
+  
+  
+  </footer> 
 </html>
