@@ -8,6 +8,14 @@
     
     {squarespace-headers}
     
+    
+    <div class="header"> 
+    <a href="/">
+            <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
+            </a>
+            </div> 
+            
+            
   </head>
 
   
@@ -16,12 +24,8 @@
   
 
     <div class="site-container">
-    
-    
-            <a href="/">
-            <img src="/assets/atlantis.png" class="atlantis" alt="logo1"> 
-            </a>
-          <div>
+
+       
           
   <div class="headdiv"> 
   <ul>
